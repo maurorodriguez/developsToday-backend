@@ -26,3 +26,12 @@ To start the server in development mode with hot reload:
 
 ```bash
 npm run start:prod
+```
+
+## Endpoints
+
+Get all the countries
+localhost:3001/country/availableCountries
+
+Get country info
+localhost:3001/country/countryInfo/:countryCode
